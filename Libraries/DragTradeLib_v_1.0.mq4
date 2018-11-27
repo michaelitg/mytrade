@@ -24,7 +24,7 @@
 //+------------------------------------------------------------------+
 //|                                                DragTrade Library |
 //+------------------------------------------------------------------+
-#property copyright "Copyright © 2009, TheXpert"
+#property copyright "Copyright ?2009, TheXpert"
 #property link      "theforexpert@gmail.com"
 
 #property library
@@ -224,10 +224,10 @@ void UpdateObjectsProperties()
    AcceptorColor     = UpdateProperty(AcceptorColorName);
    ApplyDistance     = UpdateProperty(ApplyDistanceName);
    CaptionColor      = UpdateProperty(CaptionColorName);
-   ValueColor        = UpdateProperty(ValueColorName);
+   ValueColor        = clrBlack; //UpdateProperty(ValueColorName);
    PriceArrowCode    = UpdateProperty(PriceArrowCodeName);
    PriceArrowSize    = UpdateProperty(PriceArrowSizeName);
-   PriceArrowColor   = UpdateProperty(PriceArrowColorName);
+   PriceArrowColor   = clrBlack; //UpdateProperty(PriceArrowColorName);
    StopLossColor     = UpdateProperty(StopLossColorName);
    TakeProfitColor   = UpdateProperty(TakeProfitColorName);
    StopLossStyle     = UpdateProperty(StopLossStyleName);
